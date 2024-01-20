@@ -1,18 +1,40 @@
+*{
+    margin: 0;
+}
+
 .container{
     display:flex;
 }
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
 .header{
     display: flex;
-
+    padding-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    
+    justify-content: space-around;
+}
+.hero2, .hd{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    background-color: #3882F6;
 }
 
 .hd1{
     flex: 1;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .firstSection{
     background-color: #1F2937;
-    color: white;
+    padding-bottom: 48px;
 }
 
 .sectionFirst{
@@ -20,7 +42,7 @@
     justify-content: space-around;
     margin-top: 48px;
     margin-bottom: 48px;
-
+    
 }
 .box{
     height: 150px;
